@@ -1,6 +1,6 @@
 import discord
 import datetime
-import os
+
 client = discord.Client()
 
 @client.event
@@ -57,5 +57,5 @@ async def on_message(message):
         embed.set_thumbnail (url=message.author.avatar_url)
         await message.channel.send (embed=embed)
 
-access_token = os.environ["BOT_TOKEN"]
-client.run (access_token)
+
+client.run ("Njk4MDg0NzYyMDAyMzkxMTMx.XqOS2A.8rZRXOsdSkk1irIZS8vfMbPQeZQ")
