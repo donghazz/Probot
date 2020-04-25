@@ -1,1 +1,1 @@
-worker: python 동하봇.py
+worker: python dongha.py
